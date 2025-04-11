@@ -1,4 +1,17 @@
 # Prova
+1
+// função sem parâmetro
+function mostrarHoraLocal () {
+    let hora = new Date()
+    console.log(`Hora atual: ${hora.toLocaleTimeString()}`)
+}
+mostrarHoraLocal()
+
+palavra reservada: function
+nome da função: MostrarHoraLocal
+parâmetro: não tem
+
+3
 // 1. Crie uma função chamada registrarPedido que receba cliente, prato, mesa e idade
 function registrarPedido(cliente, prato, mesa, idade) {
   return {
